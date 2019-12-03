@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Zapis uczestnika na szkolenie</legend>
+    <form action="https://formspree.io/meqoadga" method="POST">
+        <label>
+            <input type="text" placeholder="Imię" name="name">
+        </label>
+        <p></p>
+        <label>
+            <input type="text" placeholder="Nazwisko" name="lastname">
+        </label>
+        <p></p>
+        <label>
+            <input type="email" placeholder="E-mail" name="email">
+        </label>
+        <p></p>
+        <label>
+            <input type="number" placeholder="Numebr telefonu" name="telefon">
+        </label>
+        <p></p>
+            <select names="cities">
+                <option value="Warszawa">Warszawa</option>
+                <option value="Krakow">Krakow</option>
+                <option value="Gdansk">Gdansk</option>
+            </select>
+        <p></p>
+        <label><input type="radio" name="gender">Man</label> <br>
+        <label><input type="radio" name="gender">Women</label>
+        <p></p>
+        <textarea name="message" required placeholder="Wiadomosc"></textarea>
+        </label><p></p>
+        <input type="submit" value="Wyslij">
+
+        <input type="checkbox" name="agreement" id="agreement" required>
+        <label for="agreement">I agree</label>
+
+        
+    </fieldset>
+    </form>
+</body>
+</html>
